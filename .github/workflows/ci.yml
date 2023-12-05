@@ -58,6 +58,9 @@ jobs:
           # - beta
 
         include:
+          - target: aarch64-pc-windows-msvc
+            host_os: windows-latest
+
           - target: i686-pc-windows-msvc
             host_os: windows-latest
 
