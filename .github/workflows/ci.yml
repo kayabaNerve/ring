@@ -60,6 +60,7 @@ jobs:
         include:
           - target: aarch64-pc-windows-msvc
             host_os: windows-latest
+            cargo_options: --no-run
 
           - target: i686-pc-windows-msvc
             host_os: windows-latest
